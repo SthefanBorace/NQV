@@ -1,1 +1,851 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>nada que ver — blue light glasses | NQV eyewear, Panamá</title>
+<meta name="description" content="Lentes con filtro de luz azul en Panamá. NQV eyewear: tres micas — transparente, ámbar y roja — una para cada momento del día frente a la pantalla.">
+<meta name="theme-color" content="#F8F1E7">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://nadaquever.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="nada que ver eyewear">
+<meta property="og:title" content="nada que ver — blue light glasses">
+<meta property="og:description" content="Tres lentes, tres momentos del día. La primera colección de NQV eyewear, en Panamá.">
+<meta property="og:locale" content="es_PA">
+<meta property="og:image" content="https://nadaquever.com/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ilustración del perro de NQV con lentes, junto al logotipo nada que ver eyewear.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="nada que ver — blue light glasses">
+<meta name="twitter:description" content="Tres lentes, tres momentos del día. La primera colección de NQV eyewear.">
+<meta name="twitter:image" content="https://nadaquever.com/assets/og.jpg">
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Gochi+Hand&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Brand","name":"nada que ver eyewear","alternateName":"NQV","slogan":"ver diferente.","description":"Marca de eyewear en Panamá. Primera colección de lentes con filtro de luz azul en tres micas: transparente, ámbar y roja.","logo":"https://nadaquever.com/assets/og.jpg"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Cuál de los tres lentes me toca?","acceptedAnswer":{"@type":"Answer","text":"Depende de a qué hora usas más la pantalla y de si tu trabajo depende del color exacto. Si editas foto, video o diseño, el transparente. Si tus jornadas se estiran hasta la noche, el ámbar. Si el último rato del día es todo pantalla, el rojo."}},
+{"@type":"Question","name":"¿Los puedo usar en la calle?","acceptedAnswer":{"@type":"Answer","text":"El transparente y el ámbar sí. El rojo oscurece bastante y está pensado para interiores de noche."}},
+{"@type":"Question","name":"¿De verdad reducen la fatiga visual?","acceptedAnswer":{"@type":"Answer","text":"La evidencia sobre lentes de luz azul está en discusión y no prometemos milagros. Buena parte del cansancio de pantalla viene de parpadear menos, del brillo y de la distancia. El lente es una pieza; la regla 20-20-20 y bajar el brillo también cuentan."}},
+{"@type":"Question","name":"¿Llevan graduación?","acceptedAnswer":{"@type":"Answer","text":"Si necesitas graduación, escríbenos antes de pedir y lo vemos contigo."}},
+{"@type":"Question","name":"¿Cuándo salen?","acceptedAnswer":{"@type":"Answer","text":"Todavía no hay fecha pública. Escríbenos y te avisamos apenas abra la primera tanda."}}]}
+</script>
+<style>
+:root{
+  --paper:#F8F1E7; --paper-2:#F1E6D4; --paper-3:#EADFCB;
+  --ink:#191715; --ink-soft:#3A3631; --graphite:#6E6A63; --kraft:#C0A57F;
+  --amber:#F0CE79; --red:#DE5D4A;
+  --rule:rgba(25,23,21,.16); --rule-strong:rgba(25,23,21,.34);
+  --pad:clamp(20px,5vw,72px); --maxw:1240px;
+  --sans:'Archivo','Helvetica Neue',Helvetica,Arial,sans-serif;
+  --hand:'Gochi Hand','Bradley Hand','Comic Sans MS',cursive;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+h1,h2,h3{margin:0;font-weight:500;line-height:1.08;letter-spacing:-.018em}
+p{margin:0 0 1em}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);padding:10px 16px;z-index:200}
+.skip:focus{left:8px;top:8px}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 
+.grain{position:fixed;inset:-100vh 0;pointer-events:none;z-index:0;opacity:.5;
+  background-image:
+    repeating-linear-gradient(58deg, rgba(25,23,21,.055) 0 1px, transparent 1px 34px),
+    radial-gradient(circle at 1px 1px, rgba(25,23,21,.10) 1px, transparent 1.6px);
+  background-size:auto,44px 44px;will-change:transform}
+
+header{position:fixed;top:0;left:0;right:0;z-index:70;
+  background:linear-gradient(to bottom,rgba(248,241,231,.94),rgba(248,241,231,0));
+  backdrop-filter:saturate(120%) blur(2px)}
+.bar{display:flex;align-items:center;gap:14px;padding:13px 0 20px}
+.mark{display:flex;align-items:center;gap:9px;text-decoration:none;flex:0 0 auto}
+.mark img{width:36px;height:36px;object-fit:cover;object-position:50% 42%;border-radius:50%}
+.mark span{font-family:var(--hand);font-size:21px;line-height:1;padding-top:4px}
+nav.links{margin-left:auto;display:flex;gap:clamp(11px,2.2vw,28px);align-items:center}
+nav.links a{text-decoration:none;font-size:clamp(13px,1.2vw,14.5px);color:var(--graphite);
+  padding:4px 0;border-bottom:1px solid transparent;white-space:nowrap}
+nav.links a:hover{color:var(--ink);border-bottom-color:var(--rule-strong)}
+nav.links a[aria-current="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+.nav-cta{border:1px solid var(--rule-strong);border-radius:22px;padding:6px 15px!important;color:var(--ink)!important}
+.nav-cta:hover{background:var(--ink);color:var(--paper)!important;border-color:var(--ink)}
+@media(max-width:880px){nav.links a.hide-s{display:none}.mark span{display:none}}
+
+.hero{position:relative;height:100svh;min-height:520px;max-height:1000px;overflow:hidden;z-index:1}
+.hero-media{position:absolute;inset:-18% 0}
+.hero video{position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:50% 38%;will-change:transform}
+.scrim{position:absolute;inset:0;background:linear-gradient(to bottom,
+  rgba(248,241,231,.35) 0%,rgba(248,241,231,0) 22%,rgba(248,241,231,.10) 46%,
+  rgba(248,241,231,.88) 76%,var(--paper) 100%)}
+.hero-copy{position:absolute;left:0;right:0;bottom:clamp(26px,7vh,84px);z-index:3}
+.hero-copy .inner{max-width:min(700px,94%)}
+h1{font-size:clamp(30px,5vw,58px);line-height:1.04;text-wrap:balance;font-weight:500;letter-spacing:-.028em}
+.hero-sub{font-family:var(--hand);font-size:clamp(21px,2.7vw,32px);margin:.5em 0 0;
+  position:relative;display:inline-block;line-height:1.2}
+.hero-sub svg{position:absolute;left:0;right:0;bottom:-9px;width:100%;height:9px;overflow:visible}
+.hero-cue{display:flex;align-items:center;gap:10px;margin-top:clamp(18px,3.4vh,32px);
+  font-size:13.5px;letter-spacing:.05em;color:var(--graphite);text-decoration:none}
+.reveal{opacity:0;transform:translate3d(0,14px,0)}
+.loaded .reveal{opacity:1;transform:none;transition:opacity .9s ease .12s,transform .9s cubic-bezier(.2,.7,.2,1) .12s}
+.loaded .reveal.d2{transition-delay:.30s}
+.loaded .reveal.d3{transition-delay:.46s}
+
+main{position:relative;z-index:1}
+section{position:relative;padding:clamp(60px,10vh,124px) 0;scroll-margin-top:76px}
+.rule{height:1px;background:var(--rule);border:0;margin:0}
+.eyebrow{font-family:var(--hand);font-size:19px;color:var(--graphite);margin:0 0 10px}
+h2{font-size:clamp(26px,3.5vw,44px);max-width:20ch;text-wrap:balance}
+h2.wide{max-width:27ch}
+.lede{font-size:clamp(16.5px,1.5vw,19px);color:var(--ink-soft);max-width:58ch;margin-top:18px}
+.note{font-family:var(--hand);font-size:18px;color:var(--graphite)}
+.split{display:grid;grid-template-columns:1fr;gap:clamp(34px,5vw,72px)}
+@media(min-width:900px){.split{grid-template-columns:1.05fr .95fr;align-items:start}}
+
+.equation{display:flex;align-items:center;gap:clamp(12px,2.4vw,26px);flex-wrap:wrap;margin-top:38px}
+.eq-item{text-align:center;width:min(150px,30vw)}
+.eq-item svg{width:100%;height:auto;display:block}
+.eq-item .cap{font-size:11.5px;letter-spacing:.09em;color:var(--graphite);margin-top:12px;line-height:1.5}
+.eq-op{font-family:var(--hand);font-size:30px;padding-bottom:26px}
+.eq-word{font-family:var(--hand);font-size:clamp(15px,2vw,19px);line-height:1.12}
+
+.taped{position:relative;background:#FDFAF2;padding:34px 30px 30px;
+  box-shadow:0 1px 0 rgba(25,23,21,.10),0 16px 34px -26px rgba(25,23,21,.55);
+  transform:rotate(-1.15deg);border:1px solid rgba(25,23,21,.10)}
+.taped::before{content:"";position:absolute;top:-13px;left:50%;
+  transform:translateX(-50%) rotate(1.6deg);width:104px;height:26px;
+  background:rgba(196,175,140,.42);box-shadow:inset 0 0 0 1px rgba(25,23,21,.06)}
+.taped h3{font-family:var(--hand);font-size:21px;font-weight:400;margin:0 0 8px;letter-spacing:0}
+.taped ul{list-style:none;padding:0;margin:0 0 22px}
+.taped ul:last-child{margin-bottom:0}
+.taped li{position:relative;padding-left:20px;font-size:16px;line-height:1.85;color:var(--ink-soft)}
+.taped li::before{content:"";position:absolute;left:2px;top:14px;width:5px;height:5px;border-radius:50%;background:var(--ink)}
+.taped .u{border-bottom:1.5px solid var(--ink);padding-bottom:1px}
+
+.lens-grid{display:grid;grid-template-columns:1fr;gap:clamp(16px,2.2vw,26px);margin-top:clamp(32px,5vw,50px)}
+@media(min-width:760px){.lens-grid{grid-template-columns:repeat(3,1fr)}}
+.lens-card{appearance:none;-webkit-appearance:none;text-align:left;width:100%;background:transparent;
+  border:1px solid var(--rule);padding:0 0 22px;cursor:pointer;display:flex;flex-direction:column;
+  transition:border-color .25s ease,background-color .25s ease}
+.lens-card:hover{border-color:var(--rule-strong)}
+.lens-card[aria-pressed="true"]{border-color:var(--ink);background:rgba(255,255,255,.45)}
+.lens-card figure{margin:0;overflow:hidden;background:#FBF6EC;border-bottom:1px solid var(--rule)}
+.lens-card img{width:100%;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.lens-card:hover img{transform:scale(1.03)}
+.lens-head{display:flex;align-items:baseline;gap:10px;padding:20px 20px 0}
+.swatch{width:13px;height:13px;border-radius:50%;border:1px solid var(--rule-strong);flex:0 0 auto;transform:translateY(1px)}
+.lens-card h3{font-size:20px;font-weight:500}
+.lens-card .when{font-family:var(--hand);font-size:18px;color:var(--graphite);padding:6px 20px 0}
+.lens-card p{padding:10px 20px 0;margin:0;font-size:15.4px;color:var(--ink-soft);line-height:1.66}
+.lens-card .try{margin:15px 20px 0;font-size:12.5px;letter-spacing:.05em;color:var(--graphite)}
+.lens-card[aria-pressed="true"] .try{color:var(--ink)}
+
+.cmp{margin-top:clamp(40px,6vw,68px)}
+.cmp-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 20px;margin-bottom:16px}
+.cmp-top h3{font-size:clamp(19px,2vw,24px)}
+.cmp-hint{font-family:var(--hand);font-size:18px;color:var(--graphite)}
+.stage{position:relative;background:var(--paper-3);padding:clamp(14px,3vw,34px);border:1px solid var(--rule)}
+.screen{position:relative;isolation:isolate;overflow:hidden;border-radius:9px;
+  background:#fff;box-shadow:0 20px 44px -30px rgba(25,23,21,.8);aspect-ratio:16/10}
+@media(max-width:560px){.screen{aspect-ratio:4/3.4}}
+.ui{position:absolute;inset:0;display:flex;flex-direction:column;font-size:clamp(7px,1.05vw,11px);color:#2C3340}
+.ui-top{display:flex;align-items:center;gap:6px;padding:0 12px;height:clamp(20px,3.4vw,32px);
+  background:#EDF0F5;border-bottom:1px solid #DCE1E9;flex:0 0 auto}
+.ui-top i{width:7px;height:7px;border-radius:50%;background:#CDD4DE;display:block;flex:0 0 auto}
+.ui-url{margin-left:8px;height:58%;flex:1;max-width:260px;border-radius:20px;background:#fff;border:1px solid #DCE1E9}
+.ui-body{flex:1;display:flex;min-height:0}
+.ui-side{width:19%;background:#F5F7FA;border-right:1px solid #E4E8EE;padding:12px 10px;
+  display:flex;flex-direction:column;gap:7px}
+.ui-side b{display:block;height:6px;border-radius:3px;background:#3B6FD4;width:60%}
+.ui-side u{display:block;height:6px;border-radius:3px;background:#D6DCE5;width:100%}
+.ui-side u:nth-child(4){width:78%}.ui-side u:nth-child(5){width:88%}
+.ui-main{flex:1;padding:clamp(10px,2vw,20px);display:flex;flex-direction:column;gap:clamp(8px,1.5vw,14px);min-width:0}
+.ui-h{height:9px;width:38%;border-radius:4px;background:#1E2532;flex:0 0 auto}
+.chart{flex:1;display:flex;align-items:flex-end;gap:clamp(5px,1.1vw,11px);min-height:0;
+  border-bottom:1px solid #E4E8EE;padding-bottom:2px}
+.chart span{flex:1;border-radius:3px 3px 0 0;background:#3B6FD4}
+.chart span:nth-child(1){height:44%}
+.chart span:nth-child(2){background:#6E9BEA;height:62%}
+.chart span:nth-child(3){height:88%}
+.chart span:nth-child(4){background:#9CC4F5;height:56%}
+.chart span:nth-child(5){height:73%}
+.chart span:nth-child(6){background:#2CA36B;height:96%}
+.chips{display:flex;gap:6px;flex-wrap:wrap;flex:0 0 auto}
+.chips i{display:block;height:clamp(11px,1.8vw,17px);border-radius:20px}
+.chips i:nth-child(1){width:20%;background:#DCE7FB}
+.chips i:nth-child(2){width:15%;background:#FBE3DC}
+.chips i:nth-child(3){width:24%;background:#E2F3E9}
+.chips i:nth-child(4){width:13%;background:#EFEAF9}
+.ui-txt{display:flex;flex-direction:column;gap:5px;flex:0 0 auto}
+.ui-txt u{display:block;height:5px;border-radius:3px;background:#D6DCE5}
+.ui-txt u:nth-child(2){width:86%}.ui-txt u:nth-child(3){width:64%}
+.ui-btn{align-self:flex-start;background:#3B6FD4;color:#fff;border:0;border-radius:5px;
+  padding:clamp(4px,1vw,8px) clamp(10px,2vw,18px);font-size:inherit;font-weight:500}
+.tint{position:absolute;inset:0;mix-blend-mode:multiply;background:var(--amber);
+  opacity:0;clip-path:inset(0 0 0 50%);pointer-events:none}
+.divider{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#FDFAF2;
+  box-shadow:0 0 0 1px rgba(25,23,21,.28);pointer-events:none}
+.handle{position:absolute;top:50%;left:50%;width:42px;height:42px;margin:-21px 0 0 -21px;
+  border-radius:50%;background:#FDFAF2;border:1px solid rgba(25,23,21,.3);
+  display:grid;place-items:center;pointer-events:none;box-shadow:0 6px 18px -8px rgba(25,23,21,.7)}
+.cmp-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;
+  -webkit-appearance:none;appearance:none;background:transparent;z-index:4}
+.cmp-range::-webkit-slider-thumb{-webkit-appearance:none;width:44px;height:44px}
+.cmp-range::-moz-range-thumb{width:44px;height:44px;opacity:0;border:0}
+.stage:focus-within{outline:2px solid var(--ink);outline-offset:3px}
+.tags{display:flex;justify-content:space-between;margin-top:12px;font-size:12.5px;
+  letter-spacing:.05em;color:var(--graphite)}
+.tags b{font-weight:500;color:var(--ink)}
+.cmp-foot{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:18px}
+.ghost{background:transparent;border:1px solid var(--rule-strong);border-radius:22px;
+  padding:8px 17px;font-size:14px;cursor:pointer;transition:.2s}
+.ghost:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.ghost[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.veil{position:fixed;inset:0;z-index:90;pointer-events:none;mix-blend-mode:multiply;
+  opacity:0;background:var(--amber);transition:opacity .55s ease,background-color .55s ease}
+body.tinted{--graphite:#4E4A43;--ink-soft:#231E19;--rule:rgba(25,23,21,.3)}
+
+.tbl-scroll{overflow-x:auto;margin-top:clamp(36px,5vw,58px);-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:15.4px}
+caption{text-align:left;font-family:var(--hand);font-size:19px;color:var(--graphite);padding-bottom:14px}
+th,td{text-align:left;padding:15px 18px 15px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+thead th{font-weight:500;font-size:13.5px;letter-spacing:.03em;color:var(--graphite);border-bottom-color:var(--rule-strong)}
+tbody th{font-weight:400;color:var(--ink-soft);width:24%}
+.benefits{display:grid;grid-template-columns:1fr;margin-top:clamp(30px,4vw,46px);border-top:1px solid var(--rule)}
+@media(min-width:700px){.benefits{grid-template-columns:repeat(2,1fr);column-gap:clamp(30px,5vw,70px)}}
+.benefit{display:flex;gap:16px;align-items:flex-start;padding:21px 0;border-bottom:1px solid var(--rule)}
+.benefit svg{flex:0 0 auto;margin-top:1px}
+.benefit b{font-weight:500;font-size:16.5px;display:block}
+.benefit small{color:var(--graphite);font-size:14.4px;line-height:1.6;display:block;margin-top:3px}
+
+.quiz{margin-top:clamp(30px,4vw,46px);display:grid;grid-template-columns:1fr;gap:clamp(26px,4vw,48px)}
+@media(min-width:940px){.quiz{grid-template-columns:1.15fr .85fr;align-items:start}}
+.q{border:0;border-top:1px solid var(--rule);padding:22px 0 4px;margin:0}
+.q legend{padding:0;font-size:16.5px;font-weight:500;line-height:1.4}
+.q .n{font-family:var(--hand);color:var(--graphite);font-weight:400;margin-right:8px}
+.opts{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}
+.opts label{position:relative;display:inline-block;border:1px solid var(--rule-strong);border-radius:24px;
+  padding:8px 16px;font-size:14.5px;cursor:pointer;transition:.18s;color:var(--ink-soft)}
+.opts label:hover{background:rgba(255,255,255,.5)}
+.opts input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.opts label.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.opts label.focus{outline:2px solid var(--ink);outline-offset:3px}
+.result{border:1px solid var(--rule-strong);padding:clamp(22px,3vw,32px);background:rgba(255,255,255,.5)}
+.result .cap{font-family:var(--hand);font-size:19px;color:var(--graphite);margin:0 0 6px}
+.result h3{font-size:clamp(24px,3vw,32px);display:flex;align-items:center;gap:11px}
+.result h3 .swatch{width:16px;height:16px}
+.result p{margin:14px 0 0;font-size:15.8px;color:var(--ink-soft)}
+.result .disc{font-size:13.4px;color:var(--graphite);margin-top:16px;line-height:1.6}
+.result .ghost{margin-top:20px}
+.waiting{border:1px dashed var(--rule-strong);padding:clamp(22px,3vw,32px);color:var(--graphite);
+  font-family:var(--hand);font-size:19px;line-height:1.5}
+
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(12px,1.6vw,20px);margin-top:clamp(34px,5vw,56px)}
+@media(min-width:820px){.gal{grid-template-columns:repeat(12,1fr);gap:clamp(14px,1.6vw,22px)}}
+.shot{position:relative;overflow:hidden;background:var(--paper-3);margin:0}
+.shot img{width:100%;height:100%;object-fit:cover;will-change:transform;transform:scale(1.28)}
+.shot figcaption{position:absolute;left:14px;bottom:12px;font-family:var(--hand);font-size:17px;
+  color:#FDFAF2;text-shadow:0 1px 10px rgba(25,23,21,.65)}
+@media(min-width:820px){
+  .g1{grid-column:span 7;aspect-ratio:8/7}.g2{grid-column:span 5;aspect-ratio:1/1.05}
+  .g3{grid-column:span 4;aspect-ratio:1/1.24}.g4{grid-column:span 4;aspect-ratio:1/1.24}
+  .g5{grid-column:span 4;aspect-ratio:1/1.24}}
+@media(max-width:819px){
+  .g1{grid-column:span 2;aspect-ratio:8/7}.g2,.g3,.g4{aspect-ratio:1/1.1}
+  .g5{grid-column:span 2;aspect-ratio:16/10}}
+
+.faq{margin-top:clamp(28px,4vw,44px);border-top:1px solid var(--rule-strong)}
+.faq details{border-bottom:1px solid var(--rule)}
+.faq summary{list-style:none;cursor:pointer;padding:20px 44px 20px 0;position:relative;
+  font-size:clamp(16.5px,1.7vw,19px);font-weight:500;line-height:1.4}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:8px;top:50%;width:13px;height:2px;
+  background:var(--ink);transform:translateY(-50%)}
+.faq summary::before{content:"";position:absolute;right:13.5px;top:50%;width:2px;height:13px;
+  background:var(--ink);transform:translateY(-50%);transition:opacity .2s}
+.faq details[open] summary::before{opacity:0}
+.faq .a{padding:0 clamp(0px,6vw,90px) 24px 0;max-width:66ch;color:var(--ink-soft);font-size:16px}
+.faq .a p:last-child{margin-bottom:0}
+
+.contact{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,60px)}
+@media(min-width:860px){.contact{grid-template-columns:1.1fr .9fr;align-items:end}}
+.slots{display:flex;flex-direction:column;gap:12px;margin-top:26px}
+.slot{display:flex;align-items:center;gap:14px;text-decoration:none;
+  border:1px dashed var(--rule-strong);padding:15px 18px;transition:.2s}
+a.slot{border-style:solid}
+a.slot:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+a.slot:hover em{color:inherit}
+.slot b{font-weight:500;font-size:16px}
+.slot em{font-style:normal;font-family:var(--hand);font-size:16px;color:var(--graphite);margin-left:auto}
+.lockup{max-width:300px;margin-left:auto}
+@media(max-width:859px){.lockup{margin:0 auto}}
+
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:80;
+  padding:10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  background:linear-gradient(to top,rgba(248,241,231,.98) 62%,rgba(248,241,231,0));
+  transform:translate3d(0,130%,0);transition:transform .35s cubic-bezier(.2,.7,.2,1);pointer-events:none}
+.dock.on{transform:none;pointer-events:auto}
+.dock a{display:flex;align-items:center;justify-content:center;gap:9px;background:var(--ink);
+  color:var(--paper);text-decoration:none;border-radius:26px;padding:14px 20px;font-size:15.5px;font-weight:500}
+@media(min-width:861px){.dock{display:none}}
+
+footer{border-top:1px solid var(--rule-strong);padding:26px 0 34px;font-size:12.6px;letter-spacing:.05em;color:var(--graphite)}
+.foot{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;justify-content:space-between}
+@media(max-width:860px){footer{padding-bottom:90px}}
+
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#idea">Saltar al contenido</a>
+<div class="grain" data-par="0.03" data-fixed aria-hidden="true"></div>
+
+<header>
+  <div class="wrap bar">
+    <a class="mark" href="#top" aria-label="nada que ver eyewear, inicio">
+      <img src="assets/logo_head.webp" alt="" width="36" height="36">
+      <span>nada que ver</span>
+    </a>
+    <nav class="links" aria-label="Principal">
+      <a href="#idea" class="hide-s">La idea</a>
+      <a href="#coleccion">La colección</a>
+      <a href="#cual">¿Cuál me toca?</a>
+      <a href="#caja" class="hide-s">La caja</a>
+      <a href="#faq" class="hide-s">Preguntas</a>
+      <a href="#contacto" class="nav-cta">Escríbenos</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-label="nada que ver eyewear">
+  <div class="hero-media">
+    <video id="hero" poster="assets/poster.jpg" muted loop playsinline autoplay preload="none" data-par="0.16"
+      aria-label="Animación: el perro de NQV cambia de lente transparente a ámbar y a rojo mientras la luz de una pantalla cruza la escena."></video>
+  </div>
+  <div class="scrim" aria-hidden="true"></div>
+  <div class="hero-copy"><div class="wrap"><div class="inner">
+    <h1 class="reveal">Nada que ver con pasar ocho horas frente a una pantalla.</h1>
+    <p class="hero-sub reveal d2">Mucho que ver con tus ojos.
+      <svg viewBox="0 0 240 9" preserveAspectRatio="none" aria-hidden="true"><path d="M1 6 C 52 1.5, 108 8, 160 3.4 S 226 5.4, 239 3" fill="none" stroke="#191715" stroke-width="2.1" stroke-linecap="round"/></svg>
+    </p>
+    <a class="hero-cue reveal d3" href="#coleccion">
+      <svg width="15" height="34" viewBox="0 0 15 34" fill="none" aria-hidden="true"><path d="M7.4 1 C 6.2 11, 8.6 20, 7.5 30" stroke="#6E6A63" stroke-width="1.6" stroke-linecap="round"/><path d="M2.6 24.6 C 4.6 27.4, 6.6 30, 7.5 32.6 C 8.8 29.8, 10.6 27.2, 12.6 24.8" stroke="#6E6A63" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>
+      La primera colección
+    </a>
+  </div></div></div>
+</section>
+
+<hr class="rule">
+
+<section id="idea">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">la idea</p>
+      <h2>Un lente que hace algo por tus ojos sin ponerse serio.</h2>
+      <p class="lede">Pasamos el día entero mirando pantallas y casi nunca pensamos en lo que eso significa para la vista. Nada que ver nace de ahí: protección de verdad, en algo que te pondrías igual aunque no protegiera nada.</p>
+      <div class="equation" data-par="0.05">
+        <div class="eq-item">
+          <svg viewBox="0 0 120 100" aria-hidden="true"><path d="M13 22 C 40 13, 82 12, 108 20 C 111 44, 104 72, 96 86 C 70 93, 40 92, 22 84 C 14 66, 11 42, 13 22 Z" fill="none" stroke="#191715" stroke-width="2.6" stroke-linejoin="round"/><path d="M26 68 L 46 34 M36 72 L 58 33" stroke="#191715" stroke-width="1.5" stroke-linecap="round" opacity=".55"/></svg>
+          <div class="cap">LENTE /<br>PROTECCIÓN</div>
+        </div>
+        <div class="eq-op" aria-hidden="true">+</div>
+        <div class="eq-item">
+          <div class="eq-word" style="padding:22px 0 24px">nada<br>que<br>ver</div>
+          <div class="cap">ACTITUD /<br>CULTURA</div>
+        </div>
+        <div class="eq-op" aria-hidden="true">=</div>
+        <div class="eq-item">
+          <svg viewBox="0 0 120 100" aria-hidden="true"><path d="M13 22 C 40 13, 82 12, 108 20 C 111 44, 104 72, 96 86 C 70 93, 40 92, 22 84 C 14 66, 11 42, 13 22 Z" fill="none" stroke="#191715" stroke-width="2.6" stroke-linejoin="round"/><text x="60" y="42" text-anchor="middle" font-family="Gochi Hand, cursive" font-size="20" fill="#191715">nada</text><text x="60" y="62" text-anchor="middle" font-family="Gochi Hand, cursive" font-size="20" fill="#191715">que</text><text x="60" y="82" text-anchor="middle" font-family="Gochi Hand, cursive" font-size="20" fill="#191715">ver</text></svg>
+          <div class="cap">IDENTIDAD</div>
+        </div>
+      </div>
+    </div>
+    <div class="taped" data-par="0.07">
+      <h3>Nada que ver con:</h3>
+      <ul><li>lentes aburridos</li><li>forzar tu vista</li><li>elegir entre verte bien o cuidarla</li></ul>
+      <h3><span class="u">Todo que ver</span> con:</h3>
+      <ul><li>ver mejor</li><li>blue light protection</li><li>diseño que va contigo</li></ul>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="coleccion">
+  <div class="wrap">
+    <p class="eyebrow">la primera colección</p>
+    <h2 class="wide">Tres lentes, tres momentos del día.</h2>
+    <p class="lede">El armazón se mantiene. Lo que cambia es la mica: cuánto filtra y cómo te deja ver el color.</p>
+
+    <div class="lens-grid">
+      <button class="lens-card" type="button" aria-pressed="true" data-lens="clear">
+        <figure><img src="assets/dog_clear.webp" alt="Ilustración del perro de NQV con mica transparente." width="620" height="560" loading="lazy" decoding="async"></figure>
+        <div class="lens-head"><span class="swatch" style="background:rgba(255,255,255,.85)"></span><h3>Transparente</h3></div>
+        <div class="when">para el día completo</div>
+        <p>Filtra sin cambiar el color. Para trabajar, editar o diseñar: lo que ves en pantalla sigue siendo lo que es.</p>
+        <span class="try">verlo en la pantalla</span>
+      </button>
+      <button class="lens-card" type="button" aria-pressed="false" data-lens="amber">
+        <figure><img src="assets/dog_yellow.webp" alt="Ilustración del perro de NQV con mica ámbar." width="620" height="560" loading="lazy" decoding="async"></figure>
+        <div class="lens-head"><span class="swatch" style="background:#F0CE79"></span><h3>Ámbar</h3></div>
+        <div class="when">para la jornada larga</div>
+        <p>Un tinte cálido para las horas que se acumulan: la tarde que se estira, la reunión número seis, el turno de estudio.</p>
+        <span class="try">verlo en la pantalla</span>
+      </button>
+      <button class="lens-card" type="button" aria-pressed="false" data-lens="red">
+        <figure><img src="assets/dog_red.webp" alt="Ilustración del perro de NQV con mica roja." width="620" height="560" loading="lazy" decoding="async"></figure>
+        <div class="lens-head"><span class="swatch" style="background:#DE5D4A"></span><h3>Rojo</h3></div>
+        <div class="when">para el final del día</div>
+        <p>El tinte más profundo de los tres, para el rato en que la pantalla ya debería ir bajando y todavía no baja.</p>
+        <span class="try">verlo en la pantalla</span>
+      </button>
+    </div>
+
+    <div class="cmp" id="comparador">
+      <div class="cmp-top">
+        <h3>Así se ve tu pantalla.</h3>
+        <span class="cmp-hint">arrastra la línea</span>
+      </div>
+      <div class="stage">
+        <div class="screen">
+          <div class="ui" aria-hidden="true">
+            <div class="ui-top"><i></i><i></i><i></i><div class="ui-url"></div></div>
+            <div class="ui-body">
+              <div class="ui-side"><b></b><u></u><u></u><u></u><u></u></div>
+              <div class="ui-main">
+                <div class="ui-h"></div>
+                <div class="chart"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+                <div class="chips"><i></i><i></i><i></i><i></i></div>
+                <div class="ui-txt"><u></u><u></u><u></u></div>
+                <span class="ui-btn">Guardar</span>
+              </div>
+            </div>
+          </div>
+          <div class="tint" id="tint"></div>
+          <input class="cmp-range" id="cmpRange" type="range" min="0" max="100" value="50" step="0.5"
+                 aria-label="Comparar la pantalla sin lente y con lente">
+          <div class="divider" id="cmpDiv"></div>
+          <div class="handle" id="cmpHandle" aria-hidden="true">
+            <svg width="17" height="11" viewBox="0 0 17 11" fill="none"><path d="M5.4 1 1 5.5 5.4 10M11.6 1 16 5.5 11.6 10" stroke="#191715" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <div class="tags"><span>sin lente</span><span>con <b id="cmpName">transparente</b></span></div>
+      </div>
+      <div class="cmp-foot">
+        <button class="ghost" type="button" id="veilBtn" aria-pressed="false">Ver toda la página con este lente</button>
+        <span class="note">Simulación del tinte, no una medición.</span>
+      </div>
+    </div>
+
+    <div class="tbl-scroll">
+      <table>
+        <caption>Comparativa de uso, no de laboratorio.</caption>
+        <thead><tr><th scope="col">&nbsp;</th><th scope="col">Transparente</th><th scope="col">Ámbar</th><th scope="col">Rojo</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Cuándo</th><td>Todo el día</td><td>Tarde y noche temprana</td><td>La última hora</td></tr>
+          <tr><th scope="row">Color en pantalla</th><td>Igual que sin lente</td><td>Cálido, notable</td><td>Muy cálido</td></tr>
+          <tr><th scope="row">Qué tan oscuro</th><td>Nada</td><td>Medio</td><td>Alto</td></tr>
+          <tr><th scope="row">Dónde encaja</th><td>Oficina, diseño, edición de color</td><td>Estudio, gaming, jornadas largas</td><td>Interiores, de noche</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="benefits">
+      <div class="benefit"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="9.4" stroke="#191715" stroke-width="1.15"/><path d="M4.9 10.6c1.9-2.7 3.8-4 5.6-4s3.7 1.3 5.6 4c-1.9 2.7-3.8 4-5.6 4s-3.7-1.3-5.6-4Z" stroke="#191715" stroke-width="1.15" stroke-linejoin="round"/><circle cx="10.5" cy="10.6" r="1.5" fill="#191715"/></svg><div><b>Protección luz azul</b><small>El filtro es el punto de partida de las tres micas.</small></div></div>
+      <div class="benefit"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="9.4" stroke="#191715" stroke-width="1.15"/><path d="M4.9 10.6c1.9-2.7 3.8-4 5.6-4s3.7 1.3 5.6 4c-1.9 2.7-3.8 4-5.6 4s-3.7-1.3-5.6-4Z" stroke="#191715" stroke-width="1.15" stroke-linejoin="round"/><circle cx="10.5" cy="10.6" r="1.5" fill="#191715"/></svg><div><b>Reducción de fatiga visual</b><small>Pensados para jornadas de pantalla, no para un rato.</small></div></div>
+      <div class="benefit"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="9.4" stroke="#191715" stroke-width="1.15"/><path d="M4.9 10.6c1.9-2.7 3.8-4 5.6-4s3.7 1.3 5.6 4c-1.9 2.7-3.8 4-5.6 4s-3.7-1.3-5.6-4Z" stroke="#191715" stroke-width="1.15" stroke-linejoin="round"/><circle cx="10.5" cy="10.6" r="1.5" fill="#191715"/></svg><div><b>Mejora del enfoque</b><small>Menos ruido de luz mientras trabajas.</small></div></div>
+      <div class="benefit"><svg width="21" height="21" viewBox="0 0 21 21" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="9.4" stroke="#191715" stroke-width="1.15"/><path d="M4.9 10.6c1.9-2.7 3.8-4 5.6-4s3.7 1.3 5.6 4c-1.9 2.7-3.8 4-5.6 4s-3.7-1.3-5.6-4Z" stroke="#191715" stroke-width="1.15" stroke-linejoin="round"/><circle cx="10.5" cy="10.6" r="1.5" fill="#191715"/></svg><div><b>Lentes con filtro UV</b><small>Va en las tres micas de la colección.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="cual">
+  <div class="wrap">
+    <p class="eyebrow">tres preguntas</p>
+    <h2 class="wide">¿Cuál me toca?</h2>
+    <p class="lede">Elegir entre tres cosas parecidas cuesta. Responde y te decimos por dónde empezar.</p>
+
+    <div class="quiz">
+      <form id="quiz">
+        <fieldset class="q">
+          <legend><span class="n">01</span>¿A qué hora usas más la pantalla?</legend>
+          <div class="opts">
+            <label><input type="radio" name="q1" value="0"><span>Mañana y tarde</span></label>
+            <label><input type="radio" name="q1" value="1"><span>Tarde y noche</span></label>
+            <label><input type="radio" name="q1" value="2"><span>De noche, hasta tarde</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="q">
+          <legend><span class="n">02</span>¿Tu trabajo depende del color exacto?</legend>
+          <div class="opts">
+            <label><input type="radio" name="q2" value="color"><span>Sí: diseño, foto o video</span></label>
+            <label><input type="radio" name="q2" value="1"><span>A veces</span></label>
+            <label><input type="radio" name="q2" value="0"><span>No</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="q">
+          <legend><span class="n">03</span>¿Sigues en la pantalla justo antes de dormir?</legend>
+          <div class="opts">
+            <label><input type="radio" name="q3" value="0"><span>Casi nunca</span></label>
+            <label><input type="radio" name="q3" value="1"><span>A veces</span></label>
+            <label><input type="radio" name="q3" value="2"><span>Todas las noches</span></label>
+          </div>
+        </fieldset>
+      </form>
+
+      <div>
+        <div class="waiting" id="quizWait">Responde las tres y aquí sale tu lente.</div>
+        <div class="result" id="quizResult" hidden role="status">
+          <p class="cap">te toca</p>
+          <h3><span class="swatch" id="rSwatch"></span><span id="rName"></span></h3>
+          <p id="rWhy"></p>
+          <p class="disc">Esto es una guía de uso, no un diagnóstico. Si tienes molestias en la vista, lo que toca es un optómetra.</p>
+          <button class="ghost" type="button" id="rSee">Verlo en la pantalla</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="caja">
+  <div class="wrap">
+    <p class="eyebrow">la caja</p>
+    <h2 class="wide">Abrirla también cuenta.</h2>
+    <p class="lede">Caja de cartón sin brillo, estuche acolchado con su etiqueta NQV, tarjeta adentro. La idea es que llegue como algo que alguien pensó, no como un pedido más.</p>
+    <div class="gal">
+      <figure class="shot g1"><img src="assets/box_open.webp" alt="Caja de NQV abierta con el estuche acolchado adentro." loading="lazy" decoding="async" data-par="0.05"><figcaption>pero mucho que ver que mirar.</figcaption></figure>
+      <figure class="shot g2"><img src="assets/pouch.webp" alt="Estuche acolchado color crudo con el logo NADA QUE VER y unos lentes asomando." loading="lazy" decoding="async" data-par="0.07"></figure>
+      <figure class="shot g3"><img src="assets/kit.webp" alt="Estuche junto a las tarjetas impresas de la marca." loading="lazy" decoding="async" data-par="0.05"></figure>
+      <figure class="shot g4"><img src="assets/box_closed.webp" alt="Caja cerrada de NQV con el logo impreso." loading="lazy" decoding="async" data-par="0.07"><figcaption>ver diferente.</figcaption></figure>
+      <figure class="shot g5"><img src="assets/parcel.webp" alt="Paquete envuelto en papel azul con el sticker circular de NQV." loading="lazy" decoding="async" data-par="0.05"></figure>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="faq">
+  <div class="wrap">
+    <p class="eyebrow">preguntas</p>
+    <h2 class="wide">Lo que preguntarías antes de pedir uno.</h2>
+    <div class="faq">
+      <details open>
+        <summary>¿Cuál de los tres me toca?</summary>
+        <div class="a"><p>Depende de dos cosas: a qué hora usas más la pantalla y si tu trabajo depende del color exacto. Si editas foto, video o diseño, el transparente y punto. Si tus jornadas se estiran hasta la noche, el ámbar. Si el último rato del día es todo pantalla, el rojo. Arriba hay tres preguntas que lo resuelven en diez segundos.</p></div>
+      </details>
+      <details>
+        <summary>¿Los puedo usar en la calle?</summary>
+        <div class="a"><p>El transparente y el ámbar sí, sin problema. El rojo oscurece bastante y está pensado para interiores de noche: afuera vas a ver todo con un filtro que no necesitas.</p></div>
+      </details>
+      <details>
+        <summary>¿De verdad reducen la fatiga visual?</summary>
+        <div class="a">
+          <p>Seamos honestos: la evidencia sobre lentes de luz azul está en discusión, y quien te dé un porcentaje exacto sin el ensayo de laboratorio de esa mica en particular te está vendiendo humo. Buena parte del cansancio de pantalla viene de otras cosas: parpadeas menos, el brillo está muy alto, la distancia es corta.</p>
+          <p>El lente es una pieza del asunto. La regla 20-20-20 —cada 20 minutos, mirar algo lejano por 20 segundos— y bajarle el brillo a la pantalla de noche son las otras dos, y son gratis. Cuando tengamos el ensayo de nuestras micas, los números van aquí con el documento adjunto.</p>
+        </div>
+      </details>
+      <details>
+        <summary>¿Llevan graduación?</summary>
+        <div class="a"><p>Si necesitas graduación, escríbenos antes de pedir y lo vemos contigo.</p></div>
+      </details>
+      <details>
+        <summary>¿Y si no me quedan bien?</summary>
+        <div class="a"><p>Escríbenos y lo resolvemos. Estamos empezando: preferimos que te queden bien a cerrar una venta.</p></div>
+      </details>
+      <details>
+        <summary>¿Cuándo salen?</summary>
+        <div class="a"><p>Todavía no hay fecha pública. Escríbenos y te avisamos apenas abra la primera tanda.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="contacto">
+  <div class="wrap contact">
+    <div>
+      <p class="eyebrow">escríbenos</p>
+      <h2 class="wide">¿Quieres un par de la primera tanda?</h2>
+      <p class="lede">Mándanos un mensaje y te avisamos apenas abra.</p>
+      <div class="slots" id="slots">
+        <div class="slot" data-slot="whatsapp"><b>WhatsApp</b><em>por confirmar</em></div>
+        <div class="slot" data-slot="email"><b>Correo</b><em>por confirmar</em></div>
+        <div class="slot" data-slot="instagram"><b>Instagram</b><em>por confirmar</em></div>
+      </div>
+    </div>
+    <div><img class="lockup" src="assets/logo_full.webp" alt="Logotipo: el perro de NQV con lentes sobre las palabras nada que ver eyewear." loading="lazy" decoding="async" data-par="0.06"></div>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap foot">
+  <span>NADA QUE VER EYEWEAR</span>
+  <span>DISEÑADO PARA LOS QUE VEN DIFERENTE.</span>
+  <span>MUCHO QUE VER.</span>
+</div></footer>
+
+<div class="dock" id="dock"><a id="dockLink" href="#contacto">Escríbenos</a></div>
+<div class="veil" id="veil" aria-hidden="true"></div>
+
+
+<script>
+(function(){
+"use strict";
+
+/* ==========================================================
+   DATOS DE CONTACTO — lo único que hay que llenar.
+   Deja "" lo que no tengas todavía: la página se ajusta sola.
+   ========================================================== */
+var WHATSAPP  = "";   /* ej: "50761234567"  país + número, sin + ni espacios */
+var EMAIL     = "";   /* ej: "hola@nadaquever.com" */
+var INSTAGRAM = "";   /* ej: "nadaquever.eyewear"  sin @ */
+var DIRECCION = "";   /* ej: "Calle 50, Ciudad de Panamá"  -> agrega "Cómo llegar" con Google Maps */
+var MENSAJE   = "Hola, vi la página. Quiero un par de la primera tanda.";
+/* ========================================================== */
+
+var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+function $(id){ return document.getElementById(id); }
+
+/* ---------- contacto ---------- */
+(function(){
+  var slots = $('slots');
+  function fill(key, href, label){
+    var box = slots.querySelector('[data-slot="' + key + '"]');
+    if(!box) return;
+    var a = document.createElement('a');
+    a.className = 'slot'; a.href = href;
+    if(href.indexOf('http') === 0){ a.target = '_blank'; a.rel = 'noopener'; }
+    a.innerHTML = box.innerHTML;
+    a.querySelector('em').textContent = label;
+    box.parentNode.replaceChild(a, box);
+  }
+  if(WHATSAPP) fill('whatsapp','https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(MENSAJE), 'Escribir ahora');
+  if(EMAIL)    fill('email','mailto:' + EMAIL + '?subject=' + encodeURIComponent('Primera tanda NQV'), EMAIL);
+  if(INSTAGRAM)fill('instagram','https://instagram.com/' + INSTAGRAM, '@' + INSTAGRAM);
+  if(DIRECCION){
+    var a = document.createElement('a');
+    a.className = 'slot'; a.target = '_blank'; a.rel = 'noopener';
+    a.href = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(DIRECCION);
+    a.innerHTML = '<b>Dónde estamos</b><em>Cómo llegar</em>';
+    slots.appendChild(a);
+  }
+  var dl = $('dockLink');
+  if(WHATSAPP){
+    dl.href = 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(MENSAJE);
+    dl.target = '_blank'; dl.rel = 'noopener';
+    dl.textContent = 'Escríbenos por WhatsApp';
+  }
+})();
+
+/* ---------- hero ---------- */
+requestAnimationFrame(function(){ document.body.classList.add('loaded'); });
+var v = $('hero');
+function thrifty(){
+  var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  if(!c) return false;
+  return !!c.saveData || /(^|-)2g$/.test(c.effectiveType || '');
+}
+function startVideo(){
+  if(!v || v.dataset.on) return;
+  if(reduce.matches || thrifty()) return;   /* se queda con el poster */
+  v.dataset.on = '1';
+  var webm = document.createElement('source'); webm.src = 'assets/hero.webm'; webm.type = 'video/webm'; v.appendChild(webm);
+  var mp4 = document.createElement('source'); mp4.src = 'assets/hero.mp4'; mp4.type = 'video/mp4';
+  v.appendChild(mp4);
+  v.load();
+  var p = v.play(); if(p && p.catch) p.catch(function(){});
+}
+if('requestIdleCallback' in window) requestIdleCallback(startVideo,{timeout:1400});
+else setTimeout(startVideo, 400);
+if(reduce.addEventListener) reduce.addEventListener('change', function(){
+  if(reduce.matches){ if(v) v.pause(); } else startVideo();
+});
+if('IntersectionObserver' in window && v){
+  new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!v.dataset.on) return;
+      if(e.isIntersecting && !reduce.matches){ var p = v.play(); if(p && p.catch) p.catch(function(){}); }
+      else v.pause();
+    });
+  },{threshold:.05}).observe(v);
+}
+
+/* ---------- parallax: tres profundidades ---------- */
+var layers = [].slice.call(document.querySelectorAll('[data-par]')).map(function(el){
+  var inShot = el.parentNode && el.parentNode.classList && el.parentNode.classList.contains('shot');
+  return { el:el, f:parseFloat(el.getAttribute('data-par'))||0, fixed:el.hasAttribute('data-fixed'),
+           base: inShot ? ' scale(1.28)' : '', shot:inShot, mid:0, max:Infinity, vis:false };
+});
+var mob = window.matchMedia('(max-width: 760px)'), ticking = false;
+function measure(){
+  for(var i=0;i<layers.length;i++){
+    var L = layers[i]; if(L.fixed){ L.mid = 0; continue; }
+    var n = L.el, t = 0; while(n){ t += n.offsetTop; n = n.offsetParent; }
+    L.mid = t + L.el.offsetHeight/2;
+    if(L.shot) L.max = .14 * L.el.offsetHeight;
+  }
+}
+if('IntersectionObserver' in window){
+  var ioP = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      for(var i=0;i<layers.length;i++) if(layers[i].el === e.target) layers[i].vis = e.isIntersecting;
+    });
+    schedule();
+  },{rootMargin:'15% 0px'});
+  layers.forEach(function(L){ ioP.observe(L.el); });
+} else layers.forEach(function(L){ L.vis = true; });
+function paint(){
+  ticking = false; if(reduce.matches) return;
+  var vh = window.innerHeight, sy = window.pageYOffset, damp = mob.matches ? .55 : 1;
+  for(var i=0;i<layers.length;i++){
+    var L = layers[i]; if(!L.vis && !L.fixed) continue;
+    var d = L.fixed ? sy*L.f*damp : -((L.mid - sy) - vh/2)*L.f*damp;
+    if(d > L.max) d = L.max;
+    if(d < -L.max) d = -L.max;
+    L.el.style.transform = 'translate3d(0,' + d.toFixed(2) + 'px,0)' + L.base;
+  }
+}
+function schedule(){ if(!ticking){ ticking = true; requestAnimationFrame(paint); } }
+measure();
+window.addEventListener('load', function(){ measure(); schedule(); });
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ measure(); schedule(); });
+window.addEventListener('resize', function(){ measure(); schedule(); },{passive:true});
+if(!reduce.matches){ window.addEventListener('scroll', schedule,{passive:true}); schedule(); }
+if(reduce.addEventListener) reduce.addEventListener('change', function(){
+  if(reduce.matches) layers.forEach(function(L){ L.el.style.transform = L.base; });
+  else { measure(); schedule(); }
+});
+
+/* ---------- lente activo: tarjetas + comparador + velo ---------- */
+var LENS = {
+  clear:{ name:'transparente', tint:'#F7F0E0', op:.34, dot:'rgba(255,255,255,.85)', veil:'#F0CE79', veilOp:0,
+    why:'Filtra sin tocarte el color. Si trabajas con imagen, cualquier otra mica te va a mentir sobre lo que estás viendo.' },
+  amber:{ name:'ámbar', tint:'#F2CE72', op:.86, dot:'#F0CE79', veil:'#F2CE72', veilOp:.58,
+    why:'El punto medio. Cálido y notable, pero te deja seguir trabajando: para las jornadas que se estiran hasta la noche.' },
+  red:{ name:'rojo', tint:'#DE5D4A', op:.74, dot:'#DE5D4A', veil:'#DE5D4A', veilOp:.46,
+    why:'El más profundo de los tres, pensado para el último rato del día en interiores. Para trabajar con color, no.' }
+};
+var cards = [].slice.call(document.querySelectorAll('.lens-card'));
+var tint = $('tint'), cmpName = $('cmpName'), veil = $('veil'), veilBtn = $('veilBtn');
+var range = $('cmpRange'), divider = $('cmpDiv'), handle = $('cmpHandle');
+var current = 'clear', veilOn = false;
+
+function applySplit(){
+  var x = parseFloat(range.value);
+  tint.style.clipPath = 'inset(0 0 0 ' + x + '%)';
+  tint.style.opacity = LENS[current].op;
+  divider.style.left = x + '%';
+  handle.style.left = x + '%';
+}
+function setLens(k){
+  current = k;
+  cards.forEach(function(c){
+    var on = c.dataset.lens === k;
+    c.setAttribute('aria-pressed', String(on));
+    c.querySelector('.try').textContent = on ? 'en la pantalla, aquí abajo' : 'verlo en la pantalla';
+  });
+  tint.style.background = LENS[k].tint;
+  cmpName.textContent = LENS[k].name;
+  applySplit();
+  if(veilOn) applyVeil(true);
+}
+function applyVeil(on){
+  veilOn = on; var L = LENS[current];
+  veil.style.background = L.veil;
+  veil.style.opacity = on ? L.veilOp : 0;
+  document.body.classList.toggle('tinted', on && L.veilOp > 0);
+  veilBtn.setAttribute('aria-pressed', String(on));
+  veilBtn.textContent = on ? 'Quitarme los lentes' : 'Ver toda la página con este lente';
+}
+function goCompare(){
+  $('comparador').scrollIntoView({behavior: reduce.matches ? 'auto' : 'smooth', block:'center'});
+}
+cards.forEach(function(c){
+  c.addEventListener('click', function(){ setLens(c.dataset.lens); goCompare(); });
+});
+range.addEventListener('input', applySplit);
+veilBtn.addEventListener('click', function(){ applyVeil(!veilOn); });
+document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && veilOn) applyVeil(false); });
+setLens('clear');
+
+/* ---------- quiz ---------- */
+var quiz = $('quiz'), wait = $('quizWait'), res = $('quizResult');
+[].forEach.call(quiz.querySelectorAll('.opts input'), function(inp){
+  inp.addEventListener('focus', function(){ inp.parentNode.classList.add('focus'); });
+  inp.addEventListener('blur',  function(){ inp.parentNode.classList.remove('focus'); });
+});
+quiz.addEventListener('change', function(){
+  [].forEach.call(quiz.querySelectorAll('.opts label'), function(l){
+    l.classList.toggle('on', l.querySelector('input').checked);
+  });
+  var d = new FormData(quiz), q1 = d.get('q1'), q2 = d.get('q2'), q3 = d.get('q3');
+  if(q1 === null || q2 === null || q3 === null) return;
+  var pick, colorWork = (q2 === 'color');
+  if(colorWork) pick = 'clear';
+  else {
+    var s = parseInt(q1,10) + parseInt(q3,10) + parseInt(q2,10);
+    pick = s >= 4 ? 'red' : (s >= 2 ? 'amber' : 'clear');
+  }
+  var L = LENS[pick];
+  $('rSwatch').style.background = L.dot;
+  $('rName').textContent = L.name.charAt(0).toUpperCase() + L.name.slice(1);
+  $('rWhy').textContent = colorWork
+    ? 'Trabajas con color, así que la mica no puede meterse en el medio. El transparente filtra sin cambiarte lo que ves en pantalla.'
+    : L.why;
+  wait.hidden = true; res.hidden = false;
+  $('rSee').onclick = function(){ setLens(pick); goCompare(); };
+});
+
+/* ---------- nav: sección activa ---------- */
+var ids = ['idea','coleccion','cual','caja','faq','contacto'], linkFor = {}, seen = {};
+ids.forEach(function(id){
+  var a = document.querySelector('nav.links a[href="#' + id + '"]');
+  if(a) linkFor[id] = a;
+});
+if('IntersectionObserver' in window){
+  var ioN = new IntersectionObserver(function(es){
+    es.forEach(function(e){ seen[e.target.id] = e.isIntersecting ? e.intersectionRatio : 0; });
+    var best = null, bv = 0;
+    for(var k in seen) if(seen[k] > bv){ bv = seen[k]; best = k; }
+    ids.forEach(function(id){ if(linkFor[id]) linkFor[id].removeAttribute('aria-current'); });
+    if(best && linkFor[best]) linkFor[best].setAttribute('aria-current','true');
+  },{ rootMargin:'-25% 0px -45% 0px', threshold:[0,.15,.5,1] });
+  ids.forEach(function(id){ var s = $(id); if(s) ioN.observe(s); });
+}
+
+/* ---------- barra fija de contacto (móvil) ---------- */
+var dock = $('dock'), heroEl = document.querySelector('.hero'), contacto = $('contacto');
+if('IntersectionObserver' in window && dock){
+  var pastHero = false, atContact = false;
+  function sync(){ dock.classList.toggle('on', pastHero && !atContact); }
+  new IntersectionObserver(function(es){ pastHero = !es[0].isIntersecting; sync(); },{threshold:.15}).observe(heroEl);
+  new IntersectionObserver(function(es){ atContact = es[0].isIntersecting; sync(); },{threshold:.12}).observe(contacto);
+}
+})();
+</script>
+</body>
+</html>
